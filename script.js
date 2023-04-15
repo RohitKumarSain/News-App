@@ -4,7 +4,7 @@ let totalPages;
 let articlePerPage;
 
 const fetchNews = async(query,pageNo) =>{
-    let a = await fetch(`https://newsapi.org/v2/everything?q=${query}&apiKey=9f68dd6fafb045a4b8bde5b8705208f4&pageSize=12&page=${pageNo}`);
+    let a = await fetch(`https://newsapi.org/v2/everything?q=${query}&apiKey=yourapikey&pageSize=12&page=${pageNo}`);
     let r = await a.json()
     console.log(r);
     let queryText = document.getElementById("queryText");
