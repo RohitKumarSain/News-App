@@ -12,5 +12,3 @@ app.get('/script.js',(req,res)=>{
 
 app.listen(port)
 console.log("listning start at",port);
-
-// gibaxe7174@momoshe.com
